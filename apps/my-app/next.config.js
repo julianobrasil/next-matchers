@@ -10,10 +10,7 @@ const nextConfig = {
   // See: https://nx.dev/recipes/next/next-config-setup
   nx: {},
   reactCompiler: true,
-  // Basic Next.js built-in i18n configuration
-  // See: https://nextjs.org/docs/app/api-reference/config/next-config-js/i18n
   i18n: {
-    // Add or remove locales as needed
     locales: ['en', 'pt'],
     defaultLocale: 'en',
     localeDetection: false,

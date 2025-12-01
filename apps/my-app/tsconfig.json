@@ -34,7 +34,6 @@
     "pages/**/*.js",
     "pages/**/*.jsx",
     "next-env.d.ts",
-    "middleware.ts",
     "types/**/*.ts"
   ],
   "exclude": [
