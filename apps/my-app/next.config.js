@@ -10,11 +10,12 @@ const nextConfig = {
   // See: https://nx.dev/recipes/next/next-config-setup
   nx: {},
   reactCompiler: true,
-  i18n: {
-    locales: ['en', 'pt'],
-    defaultLocale: 'en',
-    localeDetection: false,
-  },
+  basePath: '/source-matcher',
+  // i18n: {
+  //   locales: ['en', 'pt'],
+  //   defaultLocale: 'en',
+  //   localeDetection: false,
+  // },
 };
 
 const plugins = [
